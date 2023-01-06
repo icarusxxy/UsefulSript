@@ -3,7 +3,7 @@ import warnings
 import numpy as np
 import pandas as pd
 warnings.filterwarnings("ignore")
-pd.options.display.max_columns = 500
+pd.options.display.max_columns = 200
 pd.options.mode.chained_assignment = None
 pd.options.display.float_format = '{:20,.4f}'.format
 
